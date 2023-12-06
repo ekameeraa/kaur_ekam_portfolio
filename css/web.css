@@ -1,0 +1,23 @@
+.case-con,
+img {
+  width: 1080px;
+  margin-left: 60px;
+}
+#bb {
+  margin: 10px;
+  color: #252525;
+  text-align: center;
+}
+.close-case {
+  font-size: 30px;
+  margin-left: 1180px;
+  color: #000;
+}
+h1 {
+  text-align: center;
+  color: darkslateblue;
+}
+p {
+  text-align: center;
+  color: #000;
+}

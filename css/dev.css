@@ -1,0 +1,32 @@
+.case-logo {
+  width: 60px;
+  height: 63px;
+  animation: ease-out 1s;
+}
+.close-case {
+  font-size: 30px;
+  margin-left: 1180px;
+  color: #000;
+}
+#lightbox-video1 {
+  width: 500px;
+  height: 350px;
+  margin-left: 430px;
+}
+h1,
+h2,
+h3 {
+  color: rgb(162, 0, 255);
+}
+.case-con p {
+  font-size: 20px;
+  color: rgb(55, 55, 55);
+  text-align: center;
+}
+#end {
+  background-color: #7a7a7a;
+  height: 30px;
+}
+#end p {
+  text-align: center;
+}
