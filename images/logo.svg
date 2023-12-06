@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 105.86 108.31">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: url(#Sky);
+        stroke-miterlimit: 10;
+        stroke-width: 4.98px;
+      }
+
+      .cls-2 {
+        fill: #0071bc;
+        stroke-width: 0px;
+      }
+    </style>
+    <linearGradient id="Sky" x1="0" y1="54.16" x2="105.86" y2="54.16" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cce0f4"/>
+      <stop offset=".06" stop-color="#c2dcf2"/>
+      <stop offset=".17" stop-color="#a9d2ee"/>
+      <stop offset=".31" stop-color="#7fc2e7"/>
+      <stop offset=".46" stop-color="#46abdd"/>
+      <stop offset=".57" stop-color="#1e9cd7"/>
+      <stop offset=".87" stop-color="#0075be"/>
+      <stop offset=".99" stop-color="#005b97"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect class="cls-2" x="21.82" y="50.65" width="37.57" height="8.51" rx="2.68" ry="2.68"/>
+    <rect class="cls-2" x="21.82" y="21.59" width="37.57" height="8.51" rx="2.89" ry="2.89"/>
+    <rect class="cls-2" x="21.82" y="78.26" width="37.57" height="8.51" rx="2.68" ry="2.68"/>
+    <rect class="cls-2" x="-7.68" y="48.6" width="65.18" height="11.16" rx="4.04" ry="4.04" transform="translate(79.09 29.27) rotate(90)"/>
+    <rect class="cls-2" x="46.75" y="35.86" width="46.03" height="8.51" rx="3.21" ry="3.21" transform="translate(-5.66 68.19) rotate(-50.32)"/>
+    <rect class="cls-2" x="51.09" y="63.37" width="43.27" height="8.51" rx="3.11" ry="3.11" transform="translate(94.93 -29.18) rotate(60)"/>
+  </g>
+  <rect class="cls-1" x="2.49" y="2.49" width="100.88" height="103.33" rx="9.23" ry="9.23"/>
+</svg>
