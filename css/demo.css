@@ -1,0 +1,14 @@
+.close-case {
+  font-size: 30px;
+  margin-left: 1180px;
+  color: #000;
+}
+h1,
+h2 {
+  text-align: center;
+}
+#lightbox-video {
+  width: 500px;
+  height: 350px;
+  margin-left: 430px;
+}
