@@ -1,19 +1,3 @@
-/* CSS */
-/* body {
-  background: linear-gradient(45deg, #c4049a, #71f56e, #5800d3);
-  background-size: 200% 200%;
-  animation: gradientAnimation 9s ease infinite;
-} */
-/* 
-@keyframes gradientAnimation {
-  0% {
-    background-position: 0% 0%;
-  }
-  100% {
-    background-position: 100% 100%;
-  }
-} */
-
 .header {
   overflow: hidden;
   background-color: #f1f1f1;
@@ -160,6 +144,22 @@ h2:hover {
   text-align: center;
 }
 
+/* section3 */
+#gallery{
+  text-align: center;
+  color: #383838;
+}
+#section3{margin-bottom: 15px;}
+#section3 img {
+  width: 300px;
+  margin-left: 550px;
+  margin-top: 25px;
+}
+#section3 p {
+  text-align: center;
+  font-size: 25px;
+}
+
 /* Style inputs with type="text" */
 input[type="text"],
 select,
@@ -265,119 +265,8 @@ input[type="submit"]:hover {
   padding: 20px;
 }
 
-/* gallery */
-
-/* div.gallery {
-  border: 1px solid #ccc;
-  margin-bottom: 30px;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-#gallery {
-  text-align: center;
-  margin-top: 25px;
-  margin-bottom: 25px;
-} */
-
 #end {
   background-color: #7a7a7a;
 }
 
-/* proffessional-skills */
-.vine-bar {
-  background-color: #6a994e;
-  height: 5px;
-}
-.skills-container {
-  position: relative;
-  text-align: center;
-  margin-top: 10px;
-}
 
-.skills {
-  opacity: 1;
-  transform: translateY(0);
-  transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
-}
-
-.centered-skills {
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-@keyframes rotateAnimation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.vine {
-  max-width: 100%;
-  height: auto;
-  animation: rotateAnimation 15s linear infinite;
-}
-
-@media screen and (max-width: 767px) {
-  .vine {
-    max-width: 80%;
-    animation: rotateAnimation 10s linear infinite;
-  }
-
-  .skills-container {
-    margin-top: 10px;
-  }
-
-  .centered-skills {
-    top: 20%;
-  }
-
-  .skills {
-    margin-top: 5px;
-  }
-}
