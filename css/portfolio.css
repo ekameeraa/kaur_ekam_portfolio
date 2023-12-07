@@ -45,13 +45,18 @@ nav a {
 h2 {
   margin-top: 70px;
   margin-bottom: 10px;
+  color: #13a705;
 }
 h3 {
+  text-align: center;
   margin-top: 12px;
   margin-bottom: 10px;
+  color: #600020;
 }
 p {
   margin-bottom: 10px;
+  color: #603700;
+  font-weight: bold;
 }
 
 .lightbox {
@@ -68,6 +73,8 @@ p {
 #end {
   background-color: #7a7a7a;
 }
+
+
 /* lightbox */
 .lightbox-content {
   margin-top: 70px;
@@ -101,8 +108,8 @@ p {
   position: fixed;
   top: 0;
   right: 0;
-  width: 35px;
-  height: 35px;
+  width: 50px;
+  height: 50px;
   background-color: rgba(255, 255, 255, 0.8);
   display: none;
   justify-content: center;
@@ -122,13 +129,13 @@ p {
     transform: rotate(360deg);
   }
 }
+
 .col-span-full h2 {
   color: #e89b36;
   font-size: 30px;
   text-align: center;
   animation: fadeIn 4s forwards;
 }
-
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -140,8 +147,8 @@ p {
   }
 }
 .material-image {
-  width: 100%;
-  height: auto;
-  max-width: 300px;
-  max-height: 200px;
+  width: 100%; 
+  height: auto; 
+  max-width: 300px; 
+  max-height: 200px; 
 }
