@@ -21,8 +21,20 @@
 }
 /* logo */
 .header a.logo {
+ padding-bottom: 40px;
   width: 85px;
   height: 85px;
+  animation: logoAnimation 3s infinite;
+}
+@keyframes logoAnimation {
+  0% {
+    width: 85px;
+    height: 85px;
+  }
+  50% {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 .header a:hover {
@@ -273,3 +285,43 @@ input[type="submit"]:hover {
 }
 
 
+/* skills section starts */
+.skills {
+  font-size: 20px;
+  min-height: 40vh;
+  background: linear-gradient(to bottom, #d1a8f5, #4a00e0);
+}
+.skills h2 {
+  color: rgb(18, 117, 0)
+}
+.centered-skills {
+  display: flex;
+  justify-content: space-around; 
+}
+
+.skills {
+  flex: 1;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+@media screen and (max-width: 600px) {
+  .skills .container {
+    padding: 0;
+    margin: 0;
+  }
+  .skills .container .row {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 1rem;
+    padding: 2rem 0.2rem 2rem 0.2rem;
+    gap: 1rem;
+  }
+  .skills .container {
+    margin-top: 5px;
+    width: 100%;
+  }
+}
+/* skills media queries ends*/
+/* skills section ends */
