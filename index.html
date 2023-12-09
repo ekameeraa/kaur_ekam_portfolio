@@ -34,36 +34,77 @@
         <p>How Are You Doing Today?</p>
       </div>
 
-      <!-- section 1 -->
       <div class="container"></div>
       <h1 class="hidden">Smooth Scroll</h1>
-
+<!-- section 1 -->
       <div class="main" id="section1">
         <h2>ABOUT ME</h2>
         <p>WELCOME TO MY PAGE!</p>
         <a href="#section2">Explore more about my portfolio:</a>
-        <p>I'm a WEB DESIGNER.</p>
+        <p>I'm a WEB DESIGNER<br> and Web Developer</p>
         <section class="button" id="button">
           <h3 class="hidden">resume</h3>
           <a href="/assets/Resume.pdf" download>
             <img src="images/ek.png" alt="ek">
           </a>
-          <p>DESIGNER<br />(click on my image to see my CV)</p>
+          <p>DESIGNER<br>(click on my image to see my CV)</p>
         </section>
+      </div>
+<!-- section 2 -->
+      <div class="main" id="section2">
+<section class="skills" id="skills">
+  <h2>SKILLS and ABILITIES</h2>
+  <div class="centered-skills">
+    <div class="skills skills-m">
+      <h3 class="skill-title">Motion Design Skills</h3>
+      <ul class="ul-con">
+        <li>Cinema 4D</li>
+        <li>Adobe After Effects</li>
+        <li>Adobe Premiere Pro</li>
+      </ul>
+    </div>
+
+    <div class="skills skills-dev">
+      <h3 class="skill-title">Front-End Development Skills</h3>
+      <ul class="ul-con">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>AJAX</li>
+        <li>Sass</li>
+        <li>Javascript</li>
+        <li>PHP</li>
+        <li>MySQL</li>
+        <li>Git</li>
+      </ul>
+    </div>
+
+    <div class="skills skills-g">
+      <h3 class="skill-title">Graphic Design Skills</h3>
+      <ul class="ul-con">
+        <li>Photoshop</li>
+        <li>Adobe Illustrator</li>
+        <li>Adobe XD</li>
+        <li>Adobe InDesign</li>
+      </ul>
+    </div>
+  </div>
+
+</section>
       </div>
 
        <!-- Portfolio -->
          <h2 id="gallery" class="gallery">This Will Leads To My Portfolio!</h2>
         <div class="responsive" id="section3">
-            <a class="project" href="portfolio.html">
+          <a onclick="clickBtn(event)" class="project" href="portfolio.html">
             <img src="images/i.jpg" alt="i">
-                <p>Check Out Now</p>
+                <!-- <button>Check Out Now</button> -->
                 <div class="dev-popover-outer">
                 <div class="dev-popover-inner">
                     </div>
                     </div>
                 </a>
-           
+                <button onclick="clickBtn(event)" id="ekam-btn">Check Out Now</button>
+           </div>
 
     </main>
 
@@ -105,7 +146,7 @@
 
           <div id="mail">
             <p>Any Questions:</p>
-            <a href="ekameeraa@gmail.com">Send Email</a>
+            <button><a href="ekameeraa@gmail.com">Send an Email!</a></button>
           </div>
         </div>
       </form>
@@ -116,16 +157,14 @@
           type="text"
           id="fname"
           name="firstname"
-          placeholder="Your name.."
-        />
+          placeholder="Your name..">
 
         <label for="lname">Last Name</label>
         <input
           type="text"
           id="lname"
           name="lastname"
-          placeholder="Your last name.."
-        />
+          placeholder="Your last name..">
 
         <label for="country">Country</label>
         <select id="country" name="country">
@@ -144,15 +183,22 @@
           style="height: 200px"
         ></textarea>
 
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Submit">
       </form>
 
       <div class="box" id="end">
-        <p>@ 2023 Ekampreet Kaur. All Rights Reserved.</p>
+        <p>@ 2023 Ekampreet Kaur. All Rights Reserved.<br>THANKS!</p>
       </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
     <script src="js/main.js"></script>
+     <!-- spinner -->
+     <script>
+      function clickBtn(e) {
+        e.preventDefault();
+        window.location.href = "spinner.html";
+      }
+    </script>
   </body>
 </html>
