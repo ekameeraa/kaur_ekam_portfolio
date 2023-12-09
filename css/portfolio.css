@@ -117,6 +117,19 @@ p {
   z-index: 1000;
 }
 
+.spin-parent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.spin-sec {
+  height: 100px;
+  width: 100px;
+}
+
+
 #spinner {
   animation: spin 1s linear infinite;
 }
@@ -151,4 +164,17 @@ p {
   height: auto; 
   max-width: 300px; 
   max-height: 200px; 
+}
+
+.spin-sec {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+.spin-parent {
+
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
 }
