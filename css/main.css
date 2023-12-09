@@ -1,6 +1,6 @@
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #928cde;
   padding: 20px 5px;
   height: 100px;
   display: flex;
@@ -29,7 +29,7 @@
   display: flex;
 }
 /* logo */
-.header a.logo {
+.header a.logo { 
  padding-bottom: 40px;
   width: 85px;
   height: 85px;
@@ -47,12 +47,12 @@
 }
 
 .header a:hover {
-  background-color: #ddd;
-  color: rgb(115, 0, 0);
+  background-color: #003371;
+  color: rgb(255, 255, 255);
 }
 
 .header a.active {
-  background-color: #000;
+  background-color: #003371;
   color: #fff;
 }
 
@@ -95,7 +95,7 @@
   margin-top: 50px;
   margin-bottom: 25px;
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: rgb(93, 54, 221);
 }
 #text:hover {
   color: rgb(167, 154, 7);
@@ -117,7 +117,7 @@ h2:hover {
 #section1 p {
   font-size: 25px;
   margin-top: 50px;
-  color: rgb(0, 0, 0);
+  color: rgb(240, 0, 232);
 }
 #section1 p:hover {
   transition: ease-in-out 2s;
@@ -136,7 +136,7 @@ h2:hover {
   margin-top: 50px;
 }
 #button p {
-  color: rgb(176, 7, 147);
+  color: rgb(255, 111, 0);
   transition: ease-in-out 2s;
   margin-top: 2px;
 }
@@ -153,7 +153,6 @@ h2:hover {
 
 #section2 ol {
   margin-left: 60px;
-  /* background-image: url(/images/skills-background.jpg); */
 }
 #section2 ol:hover {
   font-size: 32px;
@@ -192,6 +191,7 @@ select,
 textarea {
   width: 100%;
   padding: 12px;
+
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
@@ -201,6 +201,7 @@ textarea {
 }
 
 /* footer goes here */
+
 input,
 .btn {
   width: 100%;
@@ -232,7 +233,7 @@ input:hover,
   background-color: #fff;
 }
 
-.social-media-icons {
+.social-media-icons {background: #BA8CEE;
   display: flex;
 }
 .social-media-icons:hover {
@@ -261,14 +262,14 @@ input:hover,
 #mail {
   margin-top: 50px;
   text-align: center;
-  color: #000;
+  color: #060606;
   font-size: 25px;
   margin-bottom: 30px;
 }
 #mail,button {margin-top: 10px; color: #c60000;}
 /* contact form */
 input[type="submit"] {
-  background-color: #000;
+  background-color: #27164d;
   color: #fff;
   padding: 12px 20px;
   border: none;
@@ -287,12 +288,12 @@ input[type="submit"]:hover {
 /* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
-  background-color: #fff;
+  background: #BA8CEE;
   padding: 20px;
 }
 
 #end {
-  background-color: #7a7a7a;
+  background-color: rgb(93, 54, 221);
   color: white;
   font-family: "lato", Arial, Helvetica, sans-serif;
 }
@@ -305,7 +306,7 @@ input[type="submit"]:hover {
   background: linear-gradient(to bottom, #d1a8f5, #4a00e0);
 }
 .skills h2 {
-  color: rgb(18, 117, 0)
+  color: rgb(18, 117, 0);
 }
 .centered-skills {
   display: flex;
