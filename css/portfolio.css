@@ -15,16 +15,17 @@ section {
   align-items: center;
   justify-content: center;
 }
+#section1 {background-color: hsl(134, 100%, 94%);}
 #section2 {
   height: 250vh;
-  background-color: #c3c3c3;
+  background-color: #f2dbf5;
 }
 #section3 {
-  height: 270px;
+  height: 270px; background-color: hsl(64, 100%, 94%);
 }
 section:nth-child(even) {
   background-color: #efefef;
-} /*# sourceMappingURL=main.css.map */
+} 
 
 nav {
   position: fixed;
@@ -77,9 +78,9 @@ p {
   align-items: center;
 }
 #end {
-  background-color: #7a7a7a;
+  background-color: rgb(93, 54, 221);
 }
-
+#end p { color: white;}
 
 /* lightbox */
 .lightbox-content {
