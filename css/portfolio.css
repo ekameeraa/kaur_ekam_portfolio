@@ -49,21 +49,23 @@ nav a:hover{
   color: #fff;
 }
 
-h2 {
+h2 {  font-family: cursive;
   margin-top: 70px;
   margin-bottom: 10px;
   color: #13a705;
 }
-h3 {
-  text-align: center;
+h3 {font-family:cursive ;
+  font-size: 30px;
+    text-align: center;
   margin-top: 12px;
   margin-bottom: 10px;
   color: #600020;
 }
-p {
+p {font-family: cursive;
   margin-bottom: 10px;
-  color: #603700;
+  color: hsl(36, 100%, 50%);
   font-weight: bold;
+  
 }
 
 .lightbox {
