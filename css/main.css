@@ -109,12 +109,14 @@
 h2 {
   font-size: 30px;
   color: #13a705;
+  font-family: cursive;
 }
 h2:hover {
   transition: ease-in-out 3s;
   color: rgb(73, 73, 73);
 }
 #section1 p {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 25px;
   margin-top: 50px;
   color: rgb(240, 0, 232);
@@ -152,7 +154,7 @@ h2:hover {
 }
 
 #section2 ol {
-  margin-left: 60px;
+  margin-left: 60px;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #section2 ol:hover {
   font-size: 32px;
@@ -181,7 +183,7 @@ h2:hover {
 }
 #section3 p {
   text-align: center;
-  font-size: 25px;
+  font-size: 25px;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /* Style inputs with type="text" */
@@ -304,8 +306,9 @@ input[type="submit"]:hover {
   min-height: 40vh;
   background: linear-gradient(to bottom, #d1a8f5, #4a00e0);
 }
-.skills h2 {
+.skills h2 {  font-family: cursive;
   color: rgb(18, 117, 0);
+
 }
 .centered-skills {
   display: flex;
