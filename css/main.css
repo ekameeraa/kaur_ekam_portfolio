@@ -124,7 +124,7 @@ h2:hover {
   color: #004e05;
   font-family: "lato", Arial, Helvetica, sans-serif;
 }
-
+#section1 img {border-radius: 15px;}
 #section1 {
   background-color: #fff;
   height: 700px;
@@ -176,8 +176,7 @@ h2:hover {
   align-items: center;
   justify-content: center;}
 #section3 img {
-  width: 300px;
-  /* margin-left: 550px; */
+  width: 300px; border-radius: 30px;
   margin-top: 25px;
 }
 #section3 p {
@@ -266,7 +265,7 @@ input:hover,
   font-size: 25px;
   margin-bottom: 30px;
 }
-#mail,button {margin-top: 10px; color: #c60000;}
+#mail,button {margin-top: 10px; color: #000000;margin-left: 5px;}
 /* contact form */
 input[type="submit"] {
   background-color: #27164d;
@@ -285,7 +284,7 @@ input[type="submit"]:hover {
   color: #fff;
 }
 
-/* Add a background color and some padding around the form */
+/* background color and some padding around the form */
 .container {
   border-radius: 5px;
   background: #BA8CEE;
@@ -342,5 +341,9 @@ input[type="submit"]:hover {
     justify-content: space-around; 
   }
 }
-/* skills media queries ends*/
+.skill-title{color: #ffffff;}
+.ul-con:hover, .skill-title:hover{color: #8b0000;}
+.ul-con{
+  color:rgb(255, 255, 255)
+}
 /* skills section ends */
