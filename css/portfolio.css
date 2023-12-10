@@ -21,7 +21,7 @@ section {
   background-color: #f2dbf5;
 }
 #section3 {
-  height: 270px; background-color: hsl(64, 100%, 94%);
+  height: 300px; background-color: hsl(64, 100%, 94%);
 }
 section:nth-child(even) {
   background-color: #efefef;
