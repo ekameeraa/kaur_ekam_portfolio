@@ -1,23 +1,70 @@
 .case-con,
 img {
-  width: 1080px;
-  margin-left: 60px;
+  width: 1080px; 
+  margin-left: 70px;
 }
-#bb {
-  margin: 10px;
-  color: #252525;
-  text-align: center;
-}
+
 .close-case {
   font-size: 30px;
-  margin-left: 1180px;
-  color: #000;
+  margin-left: 80px;
+  margin-top: 500px;
+  color: #dde100;
+}
+#Design #case-con p {text-align: center;}
+.case-con p {
+  color: rgb(81, 3, 107); font-size: 18px; text-align: center;
 }
 h1 {
   text-align: center;
-  color: darkslateblue;
+  color: rgb(81, 3, 107);
 }
-p {
-  text-align: center;
-  color: #000;
+p {margin-bottom: 10px;
+  text-align:center;
+  color: #3e006a;
+}
+
+@media screen and (max-width: 768px) {
+  .case-con,
+  img {
+    width: 100%; 
+    margin-left: 0; 
+  }
+
+  .close-case {
+    margin-left: 20px; 
+    margin-top: 20px; }
+}
+.container {
+  position: relative;
+}
+div.scroll-container {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+
+.img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+}
+
+.container:hover .overlay {
+  opacity: 0.5;
 }

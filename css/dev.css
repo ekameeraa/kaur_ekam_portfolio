@@ -1,28 +1,35 @@
 .hidden{opacity: 0;}
 body{font-family: "lato",Arial, Helvetica, sans-serif;}
-.case-logo {
-  width: 60px;
-  height: 63px;
-  animation: ease-out 1s;
-}
+
 .close-case {
   font-size: 30px;
-  margin-left: 1180px;
-  color: #000;
+  margin-left: 80px;
+  margin-top: 500px;
+  color: #dde100;
 }
 #lightbox-video1 {
-  width: 500px;
-  height: 350px;
-  margin-left: 430px;
+  width: 100%;  
+}
+@media screen and (max-width: 768px) {
+  .case-con,
+  img {
+    width: 100%; 
+    margin-left: 0; 
+  }
+.case-con p {margin-left: 20px;
+margin-top: 20px;}
+  .close-case {
+    margin-left: 20px; 
+    margin-top: 20px; }
 }
 
-h2,
-h3 {
-  color: rgb(12, 125, 29);
+h2{
+  color: rgb(81, 3, 107);
   text-align: center;
+  margin-top: 10px;
 }
-.case-con p {
+.case-con p {margin-top: 5px;margin-bottom: 10px;
   font-size: 20px;
-  color: rgb(55, 55, 55);
+  color: #780dc5; font-size: 18px;;
   text-align: center;
 }
