@@ -1,0 +1,105 @@
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+.social-media-icons {
+  font-family: "Lato", Arial, sans-serif;
+  margin-top: 50px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85px;
+  background-color: #fff;
+}
+
+.social-media-icons {
+  display: flex;
+}
+.social-media-icons:hover {
+  background-color: #b8b8b8;
+}
+
+.social-icon {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.facebook img {
+  width: 70px;
+}
+.linkedin img {
+  width: 70px;
+}
+.instagram img {
+  width: 70px;
+}
+.github img {
+  width: 70px;
+}
+
+#mail {
+  margin-top: 50px;
+  text-align: center;
+  color: #000;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+#mail,button {margin-top: 10px; color: #c60000;}
+
+input[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(216, 0, 0);
+  font-weight: bold;
+  color: #fff;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+#end {
+  background-color: #7a7a7a;
+  color: white;
+  font-family: "lato", Arial, Helvetica, sans-serif;
+}
